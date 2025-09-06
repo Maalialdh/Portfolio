@@ -1,5 +1,6 @@
 * {
     font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -12,52 +13,64 @@ body {
 
 .our-my-class {
     background-color: rgb(255, 255, 255);
-    width: 80%;
-    height: 90%;
+    width: 80vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    border: 10px solid black;
+    border: 10px solid rgb(250, 250, 250);
+    margin-top: 40px;
 }
 
-nav {
-    color: aqua;
-    justify-content: center;
+header nav ul {
     list-style: none;
-    padding: 0;
-    margin: 1.5%;
     display: flex;
-    gap: 20px;
+    justify-content: right;
+    gap: 30px;
+    padding: 25px;
+    margin-right: 100px;
+}
+
+header nav a {
+    color: black;
+    font-weight: 50px;
+    margin-bottom: 50px;
 }
 
 .hi-2 {
     display: flex;
-    color: rgb(196, 61, 140);
-    justify-content: right;
+    text-align: center;
+    color: rgb(0, 0, 0);
     gap: 95px;
-    margin: 8%;
+    margin: 5%;
+    display: block;
+    line-height: 80px;
 
 }
 
 h1 {
-    background-color: rgb(214, 172, 198);
-    margin: auto;
+    margin: 0;
     display: flex;
-    direction: ltr;
-
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
 }
 
 img {
-    display: flex;
-    justify-content: right;
-    direction: ltr;
     float: inline-start;
+    display: block;
     height: 70%;
 
 }
 
-.say-hey {
+.social-media ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-content: end;
+    gap: 30px;
+}
 
+.social-media ul a {
+    color: black;
+    font-weight: 80px;
+    margin-bottom: 50px;
 }
