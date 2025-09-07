@@ -43,7 +43,7 @@ header nav a {
     gap: 95px;
     margin: 5%;
     display: block;
-    line-height: 80px;
+    line-height: 60px;
 
 }
 
@@ -58,7 +58,7 @@ h1 {
 img {
     float: inline-start;
     display: block;
-    height: 70%;
+    height:600px;
 
 }
 
